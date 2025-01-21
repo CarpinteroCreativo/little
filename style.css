@@ -1,1 +1,272 @@
 
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    
+}
+.grid{
+    width:100%;
+    margin:auto;
+    margin-top:0px;
+    text-align:center;
+}
+.grid > div{
+    background:red;
+    color:white;
+    font-weight:bold;
+    padding:10px;
+    border-radius:0px;
+}
+.grid > .slider{
+    height:250px;
+    color:#000000;
+    background-size:cover; background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT-DxEDNqFR-BXKwPg0Xyxrmii8jL0NaH2Sg&amp;s");
+}
+
+.grid > .slider p{
+    margin-top:100px;
+    font-size:2.5em;
+}
+
+
+/*ESTILOS GRID*/
+.grid {
+    display:grid;
+    grid-template-columns:1fr;
+    
+/*grid-template-rows:; hace el alto.*/
+    /*grid-template-rows:100px;*/
+  grid-gap:0px;
+}
+
+.grid .a{
+    background-color:black;
+}
+
+.grid2{
+    display:grid;
+   background-color:#fff; grid-template-columns:1fr 1fr;
+    grid-gap:5px;
+    margin:auto;
+    padding:10px;
+    margin-top:20px;
+    width:80%;
+    border:2px solid #000;
+    border-radius:5px;
+    text-align:center;
+    
+}
+
+.grid2 div{
+    background:white;
+    color:#000;
+    font-weight:bold;
+    padding:10px;
+    border-radius:5px;;
+}
+.dunkin img{
+    width:100%;
+}
+.cortadito img{
+    width:100%;
+}
+.precio{
+    padding:10px;
+    font-size:1.5em;
+}
+.pedir{
+    padding:10px;
+    background-color:red;
+    color:#fff;
+    border-radius:5px;
+}
+.pedir a{
+    text-decoration:none;
+    color:#fff;
+}
+.burger img{
+    width:100%;
+}
+.campero img{
+    width:100%;
+}
+.pizzahot img{
+    width:100%;
+}
+.wendys img{
+    width:100%;
+}
+
+.grid3{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap:5px;
+    margin:auto;
+    margin-top:20px;
+    width:90%;
+    text-align:center;
+    
+}
+
+.grid3 div{
+    background:orange;
+    color:white;
+    font-weight:bold;
+    padding:10px;
+    border-radius:5px;
+}
+
+.grid4{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-gap:5px;
+    margin:auto;
+    margin-top:20px;
+    width:90%;
+    text-align:center;
+    
+}
+
+.grid4 div{
+    background:orange;
+    color:white;
+    font-weight:bold;
+    padding:10px;
+    border-radius:5px;
+}
+
+.grid5{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    grid-gap:5px;
+    margin:auto;
+    margin-top:20px;
+    width:90%;
+    text-align:center;
+    
+}
+
+.grid5 div{
+    background:orange;
+    color:white;
+    font-weight:bold;
+    padding:10px;
+    border-radius:5px;
+}
+
+.grid6{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap:5px;
+    margin:auto;
+    margin-top:20px;
+    width:90%;
+    text-align:center;
+    
+}
+
+.grid6 div{
+    background:orange;
+    color:white;
+    font-weight:bold;
+    padding:10px;
+    border-radius:5px;
+}
+
+.grid7{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap:5px;
+    margin:auto;
+    margin-top:20px;
+    width:90%;
+    text-align:center;
+    
+}
+
+.grid7 div{
+    background:orange;
+    color:white;
+    font-weight:bold;
+    padding:10px;
+    border-radius:5px;
+}
+
+.grid8{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap:5px;
+    margin:auto;
+    margin-top:20px;
+    width:90%;
+    text-align:center;
+    
+}
+
+.grid8 div{
+    background:orange;
+    color:white;
+    font-weight:bold;
+    padding:10px;
+    border-radius:5px;
+}
+
+.grid9{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap:.50px;
+    margin:auto;
+    margin-top:20px;
+    width:90%;
+    text-align:center;
+    
+}
+
+.grid9 div{
+    background:orange;
+    color:white;
+    font-weight:bold;
+    padding:10px;
+    border-radius:5px;
+}
+
+.grid10{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap:.50px;
+    margin:auto;
+    margin-top:20px;
+    width:90%;
+    text-align:center;
+    
+}
+
+.grid10 div{
+    background:orange;
+    color:white;
+    font-weight:bold;
+    padding:10px;
+    border-radius:5px;
+}
+
+
+footer{
+    margin-top:10px;
+    padding:16px;
+    text-align:center; background-color:#000;
+}
+
+footer a{
+    text-decoration:none;
+    color:#fff;
+}
+
+
+
+
+
+
+
+
